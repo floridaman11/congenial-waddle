@@ -32,7 +32,7 @@ headers = {
 }
 response = requests.request("GET", "https://zeksyntrantrebind.github.io/bookish-fiesta/a.txt", headers=headers)
 driver.get('https://youtu.be/grdP213KD-Y')
-time.sleep(10)
+time.sleep(120)
 driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div[6]/div[1]/ytd-button-renderer[2]').click()
 rawr = time.time()+60
 while a == True:
